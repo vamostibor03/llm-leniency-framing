@@ -1,0 +1,12 @@
+# Tiny config for wiring checks (use with --mock, or with a real model for ~200 calls).
+experiment: {name: smoke, supergames: 2, periods: 4, history_window: 40, seed: 0, concurrency: 4}
+models: {default: openai/gpt-4.1-mini, temperature: 1.0}
+conditions:
+  - E0
+  - E2
+  - E3b
+  - {regime: E3b, framing: neutral}
+  - {regime: E3b, dissolve_on_conviction: true}
+  - {regime: E3b, reveal_reporter: explicit}
+  - {regime: E2, chat: none}
+  - {regime: E3b, reasoning: free}

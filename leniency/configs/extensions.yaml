@@ -1,0 +1,31 @@
+# Lee baseline (E0, E2, E3b) + our extensions, one change at a time against its baseline cell.
+# 8 conditions x 30 supergames.
+experiment:
+  name: extensions
+  supergames: 30
+  periods: 20
+  history_window: 40
+  seed: 0
+  concurrency: 8
+  max_inflight_calls: 32
+
+models:
+  default: openai/gpt-4.1-mini
+  temperature: 1.0
+  max_tokens: 400
+
+conditions:
+  - E0                                   # laissez-faire reference
+  - E2                                   # Lee leniency
+  - E3b                                  # Lee reward 2F (the farmable bounty)
+  - {regime: E3b, framing: neutral}      # 1: payoff-driven vs RLHF-driven reporting
+  - {regime: E3b, dissolve_on_conviction: {k: 2.0}}   # 2: no repeat bounty, repeat offenders ineligible, monitoring, 2F
+  - {regime: E3b, reveal_reporter: explicit}          # 3: non-reporter learns who reported
+  - {regime: E2, chat: none}             # 4: tacit (nothing to report)
+  - {regime: E3b, reasoning: free}       # 5: is "excess collusion at 10" a one-sentence artifact?
+  # more cells (swap in as needed):
+  # - {regime: E3b, reveal_reporter: hidden}
+  # - {regime: E2, chat: optional}
+  # - {regime: E2, framing: neutral}
+  # - {regime: E3b, post_conviction: {once_per_episode: true}}          # ablate the bundle
+  # - {regime: E3b, post_conviction: {repeat_offender_ineligible: true}}

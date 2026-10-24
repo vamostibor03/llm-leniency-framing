@@ -1,0 +1,14 @@
+# Preregistered extensions, second family (PREREGISTRATION.md section 5). Baseline cell: E3b in
+# runs/lee_llama33_70b (same models, provider pin, seeds and judges).
+experiment: {name: ext_llama33_70b, supergames: 30, periods: 20, history_window: 40, seed: 0, concurrency: 25, max_inflight_calls: 48, max_parse_retries: 8}
+models:
+  agent_a:
+    model: meta-llama/llama-3.3-70b-instruct
+    temperature: 1.0
+    max_tokens: 400
+    extra_body: {provider: {order: [DeepInfra], allow_fallbacks: false}}
+  authority: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+  classifier: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+conditions:
+  - {regime: E3b, dissolve_on_conviction: {k: 2.0}}   # H3
+  - {regime: E3b, framing: neutral}                   # H4

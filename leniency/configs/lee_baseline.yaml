@@ -1,0 +1,22 @@
+# Lee (SSRN 7426061) replication: five regimes, every extension flag off.
+experiment:
+  name: lee_baseline
+  supergames: 30        # fresh agent pair per supergame (agents are stateless across supergames)
+  periods: 20           # not told to the agents
+  history_window: 40
+  seed: 0
+  concurrency: 8        # supergames in flight
+  max_inflight_calls: 32
+
+models:
+  default: openai/gpt-4.1-mini   # agents A and B; authority/classifier default to the same id at T=0
+  temperature: 1.0
+  max_tokens: 400
+  # agent_b: openai/gpt-4o-mini              # per-role override (extension 6)
+  # authority: {model: openai/gpt-4.1-mini, temperature: 0}
+  # classifier: {model: openai/gpt-4.1-mini, temperature: 0}   # null -> keyword classifier
+  # Open model without thinking (OpenRouter):
+  # default: qwen/qwen3-14b
+  # extra_body: {reasoning: {enabled: false}}
+
+conditions: [E0, E1, E2, E3a, E3b]

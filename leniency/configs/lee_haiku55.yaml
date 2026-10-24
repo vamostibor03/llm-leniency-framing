@@ -1,0 +1,17 @@
+# Lee (SSRN 7426061) replication on the primary model: five regimes, every extension flag off.
+# Agents: Claude Haiku 5.5, thinking off (with it on, Haiku spends the 400-token budget reasoning and
+# returns nothing). Authority and classifier stay on gpt-4.1-mini (T=0), as in every other run.
+# runs/lee_haiku55 was seeded with the 30 finished supergames of runs/screen_haiku55 (E0/E1/E3b,
+# sg0-9; identical settings apart from the run name), which the runner skips.
+# max_parse_retries raised 3 -> 8 after 7 supergames aborted on truncated public-report replies;
+# the aborted supergames were re-run, replaying their cached calls (errors_attempt1.jsonl).
+experiment: {name: lee_haiku55, supergames: 30, periods: 20, history_window: 40, seed: 0, concurrency: 20, max_inflight_calls: 40, max_parse_retries: 8}
+models:
+  agent_a:
+    model: anthropic/claude-haiku-5.5
+    temperature: 1.0
+    max_tokens: 400
+    extra_body: {reasoning: {enabled: false}}
+  authority: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+  classifier: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+conditions: [E0, E1, E2, E3a, E3b]

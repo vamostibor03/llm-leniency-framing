@@ -1,0 +1,11 @@
+.DS_Store
+*.zip
+.env
+*.env
+.venv/
+__pycache__/
+*.pyc
+# Lee's paper is copyrighted: cite it, don't redistribute it
+papers/
+# run caches are large; commit analysis outputs selectively
+leniency/runs/

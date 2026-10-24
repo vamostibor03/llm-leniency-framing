@@ -1,0 +1,18 @@
+# Preregistered extensions, primary family (PREREGISTRATION.md section 5). Each cell changes one
+# thing relative to its baseline cell in runs/lee_haiku55 (same models, seeds and judges).
+# Launch order is the preregistered cut order: run with --only to go step by step.
+experiment: {name: ext_haiku55, supergames: 30, periods: 20, history_window: 40, seed: 0, concurrency: 20, max_inflight_calls: 40, max_parse_retries: 8}
+models:
+  agent_a:
+    model: anthropic/claude-haiku-5.5
+    temperature: 1.0
+    max_tokens: 400
+    extra_body: {reasoning: {enabled: false}}
+  authority: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+  classifier: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+conditions:
+  - {regime: E3b, dissolve_on_conviction: {k: 2.0}}   # H3
+  - {regime: E3b, framing: neutral}                   # H4
+  - {regime: E2, chat: none}                          # H6
+  - {regime: E3b, reveal_reporter: explicit}          # exploratory
+  - {regime: E3b, reasoning: free}                    # side check

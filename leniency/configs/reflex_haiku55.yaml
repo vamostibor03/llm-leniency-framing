@@ -1,0 +1,14 @@
+# Reflex study (PREREGISTRATION.md): neutral framing, identical payoffs. The legal-framing
+# comparison cells are the matching cells (same seeds, supergames 0-19) of the baseline/screen run.
+# Agents vary; authority and classifier stay on gpt-4.1-mini (T=0) so the instrument is fixed.
+experiment: {name: reflex_haiku55, supergames: 20, periods: 20, history_window: 40, seed: 0, concurrency: 20, max_inflight_calls: 40, max_parse_retries: 8}
+models:
+  agent_a:
+    model: anthropic/claude-haiku-5.5
+    temperature: 1.0
+    max_tokens: 400
+    extra_body: {reasoning: {enabled: false}}
+  authority: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+  classifier: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+conditions:
+  - {regime: E1, framing: neutral}

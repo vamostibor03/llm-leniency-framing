@@ -1,0 +1,13 @@
+# Model screen: does this family collude at E0 and show an incentive-sensitive report ladder?
+# Agents vary; authority and classifier stay on gpt-4.1-mini (T=0) so the instrument is fixed.
+# Thinking off: with it on, Haiku 5.5 spends the whole 400-token budget reasoning and returns nothing.
+experiment: {name: screen_haiku55, supergames: 10, periods: 20, history_window: 40, seed: 0, concurrency: 10, max_inflight_calls: 32}
+models:
+  agent_a:
+    model: anthropic/claude-haiku-5.5
+    temperature: 1.0
+    max_tokens: 400
+    extra_body: {reasoning: {enabled: false}}
+  authority: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+  classifier: {model: openai/gpt-4.1-mini, temperature: 0, max_tokens: 400}
+conditions: [E0, E1, E3b]
