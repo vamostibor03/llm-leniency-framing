@@ -1,0 +1,400 @@
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 0, "answer": "B", "correct": false, "raw": "{\"answer\":\"B\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 1, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 2, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 3, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 4, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 5, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 6, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 8, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 9, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 10, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 11, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 12, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 13, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 14, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 15, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 16, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 17, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "legal", "regime": "E3b", "i": 19, "answer": "C", "correct": false, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4o-mini", "framing": "neutral", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "legal", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "openai/gpt-4.1-mini", "framing": "neutral", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\": \"A\"}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\": \"A\"}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\"answer\": \"A\"}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "legal", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\": \"C\"}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\n  \"answer\": \"C\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "google/gemini-3.5-flash-lite", "framing": "neutral", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\n  \"answer\": \"A\"\n}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "legal", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "meta-llama/llama-3.3-70b-instruct", "framing": "neutral", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "Per the rules: if exactly one firm filed, that filer pays nothing (the non-reporting firm pays 200). So I pay 0.\n\n{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "Under the rules: exactly one firm filed (you, secretly), so that firm (you) pays nothing and the firm that did not report (competitor) pays 200. So your fine is 0.\n\n{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "legal", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 0, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 1, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 2, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 3, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 4, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 5, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 6, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 7, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 8, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 9, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 10, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 11, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 12, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 13, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 14, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 15, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 16, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 17, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 18, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E1", "i": 19, "answer": "C", "correct": true, "raw": "{\"answer\":\"C\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 0, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 1, "answer": "A", "correct": true, "raw": "Per the rules: if the outcome is Positive and exactly one firm filed, the firm that filed pays nothing (0), and the non-filing firm pays a deduction of 200. You filed, so you pay 0.\n\n{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 2, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 3, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 4, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 5, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 6, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 7, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 8, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 9, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 10, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 11, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 12, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 13, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 14, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 15, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 16, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 17, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 18, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
+{"model": "anthropic/claude-haiku-5.5", "framing": "neutral", "regime": "E3b", "i": 19, "answer": "A", "correct": true, "raw": "{\"answer\":\"A\"}"}
