@@ -1,4 +1,4 @@
-# Say Less, Charge the Same: Legal Framing Makes LLM Cartels Covert
+# Say Less: Legal Framing Makes LLM Price Agreements Less Explicit
 
 Code, preregistration, data summaries and paper for a project at the **AI Collusion Research Sprint** (Apart Research × Poseidon Research, October 23–25, 2026).
 
@@ -7,7 +7,7 @@ Code, preregistration, data summaries and paper for a project at the **AI Collus
 We reimplemented Lee's (2026) LLM version of the Bigoni et al. (2012) leniency experiment: two LLM firms set prices, chat, and may report their cartel to an LLM competition authority. We ran it across six model families (754 supergames).
 
 - **Reporting varies hugely by model.** Under a fine-only rule, the share of periods with a report ranges from 0.01 (Claude Haiku 5.5) to 0.94 (gpt-4o-mini). The models understand that reporting only costs them, and removing legal vocabulary does not stop it (preregistered; H1 and H2 not supported).
-- **Calling collusion "illegal" makes it covert.** Agents state explicit price agreements far less often: 0.12 vs 0.67 for Haiku and 0.29 vs 0.85 for Llama-3.3-70B, both p < 10⁻⁶. Prices stay about the same (preregistered confirmatory test, H5c).
+- **Calling collusion "illegal" makes price agreements less explicit.** Agents state explicit agreements far less often: 0.12 vs 0.67 for Haiku and 0.29 vs 0.85 for Llama-3.3-70B, both p < 10⁻⁶ (preregistered test, H5c; neutral arms collected after registration). Markups do not fall in these two families. The pattern fits avoidance of normatively flagged wording better than strategic concealment. Robustness checks are in `results/sensitivity_h5c.md`.
 
 ## What is where
 
