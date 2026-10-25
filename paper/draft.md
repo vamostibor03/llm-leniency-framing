@@ -3,7 +3,7 @@
 **Tibor Vámos**
 AI Collusion Research Sprint (Apart Research × Poseidon Research), October 2026. Tracks 1 and 3.
 
-> DRAFT, 2026-10-25. Every number comes from `results/` (generated from `leniency/runs/`). Citations marked [V?] still need to be opened and checked by hand before submission.
+> DRAFT, 2026-10-25. Every number comes from `results/` (generated from `leniency/runs/`). Citations verified 2026-10-25 (arXiv/RePEc/CMA pages opened; journal metadata checked against Crossref). Lee (2026)'s SSRN number could not be confirmed automatically (see References).
 
 ---
 
@@ -24,7 +24,7 @@ A blinded human hand-check finds that the classifier over-detects explicit agree
 
 ## 1. Introduction
 
-Pricing is increasingly delegated to algorithms, and recent work shows that LLM pricing agents can sustain supracompetitive prices, especially when they can talk (Fish et al., 2024 [V?]; Agrawal et al., 2025 [V?]). Leniency is the main tool antitrust uses against cartels. It works by making reporting attractive to cartel members, and the UK CMA has extended it, together with informant rewards, to algorithmic collusion (CMA, 2026 [V?]). Proposals for governing multi-agent AI systems borrow the same idea (Idowu et al., 2026 [V?]).
+Pricing is increasingly delegated to algorithms, and recent work shows that LLM pricing agents can sustain supracompetitive prices, especially when they can talk (Fish et al., 2024; Agrawal et al., 2025a). Leniency is the main tool antitrust uses against cartels. It works by making reporting attractive to cartel members, and the UK CMA has extended it, together with informant rewards, to algorithmic collusion (Croxson & Enser, 2026). Proposals for governing multi-agent AI systems borrow the same idea, granting immunity to the first agent that reports collusion (Idowu et al., 2026).
 
 Lee (2026) ran the first such experiment with LLM firms. Under a ladder of enforcement regimes (fine; leniency; leniency plus a reward of one or two fines), reporting rose from 0.001 to 0.227 while the average price fell only from 9.81 to 8.88. Lee concluded that leniency "buys prosecutions, not competition". The study used one unnamed model and one seed.
 
@@ -36,17 +36,17 @@ We started by asking whether that result is a property of the agents or of the m
 
 The third point matters for AI oversight. Any monitor that reads agent communication (an authority, a classifier, a human reviewer) sees less collusion precisely when agents have been told collusion is forbidden, while prices tell a different story.
 
-**Definition.** We call a period collusive in *outcome* when the markup index exceeds the Bertrand–Nash level (Δ > 0), and *reportable* when the conversation contains an explicit or implicit agreement. This follows the say/do distinction of Nakamura et al. (2026) [V?]: our main result is a shift from "direct" collusion (talk plus high price) towards "hidden" collusion (high price, little explicit talk).
+**Definition.** We call a period collusive in *outcome* when the markup index exceeds the Bertrand–Nash level (Δ > 0), and *reportable* when the conversation contains an explicit or implicit agreement. This follows the distinction between direct, attempted and hidden collusion in Nakamura et al. (2026): our main result is a shift from "direct" collusion (talk plus high price) towards "hidden" collusion (high price, little explicit talk).
 
 ## 2. Related work
 
-**Human leniency experiments.** In the human version of our environment, leniency and rewards sharply reduce cartel formation (Bigoni et al., 2012 [V?]; Hinloopen & Soetevent, 2008 [V?]). With free-form chat, however, leniency had no effect on cartelisation (Andres et al., 2021 [V?]), and humans use reports as punishment (Apesteguia et al., 2007 [V?]).
+**Human leniency experiments.** In the human version of our environment, fines alone reduce cartel formation, leniency strengthens deterrence, and rewards bring prices down to the competitive level (Bigoni et al., 2012). Hinloopen and Soetevent (2008) likewise find fewer and less successful cartels under leniency. With open communication, however, a leniency rule did not affect cartelisation (Andres et al., 2021), and whistle-blowing can give cartel members a tool to punish each other (Apesteguia et al., 2007).
 
-**Theory.** Theory warns that badly designed leniency can lower the expected cost of collusion (Motta & Polo, 2003 [V?]; Buccirossi & Spagnolo, 2006 [V?]), and that rewards can reach the first-best (Spagnolo, 2004 [V?]). Harrington (2018) [V?] notes that autonomous agents may leave no "meeting of minds" to report.
+**Theory.** Leniency can backfire by lowering the expected penalty for collusion (Motta & Polo, 2003), and poorly designed leniency can make otherwise infeasible illegal deals possible (Buccirossi & Spagnolo, 2006). Rewarding the first reporter can reach the first-best (Spagnolo, 2004). Harrington (2018) argues that collusion by autonomous pricing agents is not unlawful under current US law, because no human agreement exists.
 
-**LLM and algorithmic collusion.** Q-learning agents collude without communication (Calvano et al., 2020 [V?]). LLM agents collude, and prompt wording changes how much (Fish et al., 2024 [V?]). Our framing result is a sharper version of that sensitivity: the wording changes the *visibility* of collusion more than its level.
+**LLM and algorithmic collusion.** Reinforcement-learning pricing agents learn to collude (Calvano et al., 2020). LLM agents collude too, and "seemingly innocuous phrases" in their instructions change how much (Fish et al., 2024). Our framing result is a sharper version of that sensitivity: the wording changes the *visibility* of collusion more than its level.
 
-**Detection and whistleblowing.** Colosseum distinguishes direct, attempted and hidden collusion and shows that an LLM judge alone is insufficient (Nakamura et al., 2026 [V?]). WhistleBench finds that whistleblowing varies by model family (Agrawal et al., WhistleBench [V?]). Our cross-family reporting spread is consistent with that, now in an incentivised economic game.
+**Detection and whistleblowing.** Colosseum distinguishes direct, attempted and hidden collusion, and finds that neither conversations nor actions alone suffice to detect it (Nakamura et al., 2026). Whistleblowing by LLM agents differs substantially between model families (Agrawal et al., 2025b). Our cross-family reporting spread is consistent with that, now in an incentivised economic game.
 
 ## 3. Methods
 
@@ -199,11 +199,11 @@ Over-calling inflates the *legal* explicit share at least as much as the neutral
 
 **Lee's result is model-dependent.** How often LLM firms report under a leniency program spans two orders of magnitude across families under identical rules. Reporting is also often insensitive to the incentive the program is built on. Conclusions about "LLM agents and leniency" from one model, including Lee's, do not transfer.
 
-**The reporting is not explained by misunderstanding or by vocabulary.** Agents know the cost (§4.2), and removing legal words keeps or increases reporting (§4.3). The preregistered nulls rule out the most obvious explanation we had. What remains is a learned disposition to file. It is plausibly connected to the family-level differences in whistleblowing seen elsewhere (WhistleBench [V?]), but we do not test that link.
+**The reporting is not explained by misunderstanding or by vocabulary.** Agents know the cost (§4.2), and removing legal words keeps or increases reporting (§4.3). The preregistered nulls rule out the most obvious explanation we had. What remains is a learned disposition to file. It is plausibly connected to the family-level differences in whistleblowing seen elsewhere (Agrawal et al., 2025b), but we do not test that link.
 
 **The confirmed result concerns oversight, not enforcement.** Telling agents that coordination is illegal did not consistently reduce markups. It reliably made the coordination less explicit, and it cut what a conversation-reading authority can detect. For anyone overseeing AI agents through what they say, this is the worrying direction. Monitors look most reassuring precisely when agents have been warned. It argues for pairing communication monitoring with outcome-based checks: prices, the say/do comparison.
 
-**Policy note.** Reward schemes for reporting among AI agents (Idowu et al., 2026 [V?]) should not assume that agents respond to the reward. In our data, rewards above leniency changed nothing for Haiku, and reflexive families report regardless.
+**Policy note.** Leniency for AI agents (Idowu et al., 2026), and reward schemes built on it, should not assume that agents respond to the reward. In our data, rewards above leniency changed nothing for Haiku, and reflexive families report regardless.
 
 ## 6. Limitations
 
@@ -226,24 +226,24 @@ Across six LLM families in a leniency experiment, reporting behaviour is family-
 
 ## References
 
-*(To verify by opening each URL before submission. Status from `notes/literature_review.md`.)*
+*Verified 2026-10-25: arXiv, RePEc and CMA pages opened; journal entries checked against Crossref by DOI.*
 
-- Agrawal, K., Xiao, …, Bergman, Cooper Stickland. Why Do Language Model Agents Whistle-blow? (WhistleBench). arXiv:2511.17085. [V?]
-- Agrawal et al. (2025). Evaluating LLM Agent Collusion in Double Auctions. arXiv:2507.01413. [V?]
-- Andres, M., Bruttel, L., & Friedrichsen, J. (2021). International Journal of Industrial Organization 76:102728. [V?]
-- Apesteguia, J., Dufwenberg, M., & Selten, R. (2007). Blowing the whistle. Economic Theory 31:143–166. [V?]
-- Bigoni, M., Fridolfsson, S.-O., Le Coq, C., & Spagnolo, G. (2012). Fines, leniency, and rewards in antitrust. RAND Journal of Economics 43(2):368–390. [V?]
-- Buccirossi, P., & Spagnolo, G. (2006). Journal of Public Economics 90(6–7). [V?]
-- Calvano, E., Calzolari, G., Denicolò, V., & Pastorello, S. (2020). American Economic Review 110(10):3267–97. [V?]
-- CMA (2026, March 4). AI and collusion: frontiers, opportunities and challenges. competitionandmarkets.blog.gov.uk. [V?]
-- Fish, S., Gonczarowski, Y., & Shorrer, R. (2024). Algorithmic Collusion by Large Language Models. arXiv:2404.00806. [V?]
-- Harrington, J. (2018). Journal of Competition Law & Economics 14(3):331–363. [V?]
-- Hinloopen, J., & Soetevent, A. (2008). RAND Journal of Economics 39(2):607–616. [V?]
-- Idowu, Almasoud & Alfahid (2026). Mapping Human Anti-collusion Mechanisms to Multi-agent AI Systems. arXiv:2601.00360. [V?]
-- Lee, J. Y. (2026). LLM Leniency and Reward Experiment. SSRN 7426061.
-- Motta, M., & Polo, M. (2003). International Journal of Industrial Organization 21(3):347–379. [V?]
-- Nakamura, Bagdasarian et al. (2026). Colosseum. arXiv:2602.15198. [V?]
-- Spagnolo, G. (2004). Divide et Impera: Optimal Leniency Programmes. CEPR DP 4840. [V?]
+- Agrawal, K., Teo, V., Vazquez, J. J., Kunnavakkam, S., Srikanth, V., & Liu, A. (2025a). Evaluating LLM agent collusion in double auctions. arXiv:2507.01413.
+- Agrawal, K., Xiao, F., Bergman, G., & Cooper Stickland, A. (2025b). Why do language model agents whistleblow? arXiv:2511.17085.
+- Andres, M., Bruttel, L., & Friedrichsen, J. (2021). The leniency rule revisited: Experiments on cartel formation with open communication. *International Journal of Industrial Organization*, 76, 102728. doi:10.1016/j.ijindorg.2021.102728
+- Apesteguia, J., Dufwenberg, M., & Selten, R. (2007). Blowing the whistle. *Economic Theory*, 31(1), 143–166. doi:10.1007/s00199-006-0092-8
+- Bigoni, M., Fridolfsson, S.-O., Le Coq, C., & Spagnolo, G. (2012). Fines, leniency, and rewards in antitrust. *RAND Journal of Economics*, 43(2), 368–390. doi:10.1111/j.1756-2171.2012.00170.x
+- Buccirossi, P., & Spagnolo, G. (2006). Leniency policies and illegal transactions. *Journal of Public Economics*, 90(6–7), 1281–1297. doi:10.1016/j.jpubeco.2005.09.008
+- Calvano, E., Calzolari, G., Denicolò, V., & Pastorello, S. (2020). Artificial intelligence, algorithmic pricing, and collusion. *American Economic Review*, 110(10), 3267–3297. doi:10.1257/aer.20190623
+- Croxson, K., & Enser, J. (2026, March 4). AI and collusion: frontiers, opportunities and challenges. Competition and Markets Authority blog. https://competitionandmarkets.blog.gov.uk/2026/03/04/ai-and-collusion-frontiers-opportunities-and-challenges/
+- Fish, S., Gonczarowski, Y. A., & Shorrer, R. I. (2024). Algorithmic collusion by large language models. arXiv:2404.00806.
+- Harrington, J. E. (2018). Developing competition law for collusion by autonomous artificial agents. *Journal of Competition Law & Economics*, 14(3), 331–363. doi:10.1093/joclec/nhy016
+- Hinloopen, J., & Soetevent, A. R. (2008). Laboratory evidence on the effectiveness of corporate leniency programs. *RAND Journal of Economics*, 39(2), 607–616. doi:10.1111/j.0741-6261.2008.00030.x
+- Idowu, J., Almasoud, A., & Alfahid, A. (2026). Mapping human anti-collusion mechanisms to multi-agent AI systems. arXiv:2601.00360.
+- Lee, J. Y. (2026). LLM leniency and reward experiment. Working paper, Pusan National University. SSRN 7426061. *[TODO before submission: open https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7426061 in a browser and confirm the number; SSRN blocked automated access. Title, author and affiliation confirmed from the PDF.]*
+- Motta, M., & Polo, M. (2003). Leniency programs and cartel prosecution. *International Journal of Industrial Organization*, 21(3), 347–379. doi:10.1016/S0167-7187(02)00057-7
+- Nakamura, M., Kumar, A., Das, S., Abdelnabi, S., Mahmud, S., Fioretto, F., Zilberstein, S., & Bagdasarian, E. (2026). Colosseum: Auditing collusion in cooperative multi-agent systems. arXiv:2602.15198.
+- Spagnolo, G. (2004). Divide et impera: Optimal leniency programmes. CEPR Discussion Paper 4840.
 
 ## Appendix A. Limitations and dual-use / ethical considerations
 
