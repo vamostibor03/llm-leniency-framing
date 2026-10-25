@@ -1,4 +1,4 @@
-# Say Less, Charge the Same: Legal Framing Makes LLM Cartels Covert
+# Say Less: Legal Framing Makes LLM Price Agreements Less Explicit
 
 **Tibor Vámos**
 AI Collusion Research Sprint (Apart Research × Poseidon Research), October 2026. Tracks 1 and 3.
@@ -12,13 +12,13 @@ AI Collusion Research Sprint (Apart Research × Poseidon Research), October 2026
 Competition authorities are extending leniency and informant rewards to algorithmic collusion, and AI-safety proposals suggest rewarding agents that report collusion. Both assume that agents respond to the incentives these programs create. We test this in a reimplementation of Lee's (2026) LLM version of the Bigoni et al. (2012) leniency experiment, a repeated Bertrand duopoly with cheap talk, reporting and an LLM competition authority. We ran it across six model families (754 supergames of 20 periods).
 
 Three findings:
-1. **Lee's single-model result does not generalise.** Under identical fine-only rules, where reporting can only cost the reporter, the share of periods with a report ranges from 0.01 (Claude Haiku 5.5) to 0.94 (gpt-4o-mini). All five families tested answer a comprehension question about this cost correctly.
-2. **Removing legal vocabulary does not remove the reporting.** A preregistered test found that neutral framing ("Form R1", "reviewer") left reporting unchanged or increased it in three of four reflexive families.
-3. **The legal frame changes how cartels talk, not whether they collude.** In a preregistered confirmatory test on fresh data, telling agents that price agreements are "illegal" cut the share of chats with an explicit price agreement from 0.67 to 0.12 (Claude Haiku 5.5) and from 0.85 to 0.29 (Llama-3.3-70B), both p < 10⁻⁶. Markups barely changed (Δ 0.93 vs 0.97; 0.81 vs 0.78).
+1. **Lee's single-model result does not generalise.** Under a fine-only rule, where reporting cannot lower the reporter's own fine, the share of periods with a report ranges from 0.01 (Claude Haiku 5.5) to 0.94 (gpt-4o-mini). All five families tested state the fine correctly.
+2. **Removing legal vocabulary does not remove the reporting.** In a preregistered test, neutral wording ("Form R1", "reviewer") reduced reporting in only one of three high-reporting families.
+3. **Legal framing makes price agreements less explicit.** In a preregistered test whose neutral arm was collected after the hypothesis was registered, telling agents that price agreements are "illegal" cut the share of chats with an explicit agreement from 0.67 to 0.12 (Claude Haiku 5.5) and from 0.85 to 0.29 (Llama-3.3-70B), both p < 10⁻⁶. Markups did not fall in these two families (95% CIs of the difference within ±0.09 Δ). The pattern holds in four of five families in exploratory data (not in Gemini), and gpt-4o-mini's markups do fall.
 
-A blinded human hand-check finds that the classifier over-detects explicit agreements in both framings, so the effect is not a framing-dependent classifier artifact. A conversation-based authority is therefore weakest exactly when agents know the conduct is forbidden.
+Robustness checks against classifier error and attrition leave the effect intact for Haiku; for Llama it survives except under an adversarial assumption. The pattern fits agents avoiding normatively flagged wording better than strategic concealment. Either way, a monitor that reads agent conversations sees less explicit coordination once agents are told it is illegal.
 
-*(≈ 240 words)*
+*(≈ 245 words)*
 
 ---
 
@@ -30,13 +30,13 @@ Lee (2026) ran the first such experiment with LLM firms. Under a ladder of enfor
 
 We started by asking whether that result is a property of the agents or of the mechanism. The data redirected us, and every step was preregistered:
 
-- **(i)** Under identical rules, model families differ by two orders of magnitude in how often they report, and several report even when it can only hurt them.
-- **(ii)** This reporting is not a reaction to legal vocabulary. Agents know the cost, and they keep reporting when the words are removed.
-- **(iii)** The legal vocabulary has a large, replicated effect on something else: whether colluding agents *say* their agreement out loud.
+- **(i)** Under identical rules, model families differ by two orders of magnitude in how often they report, and several report even though reporting cannot lower their own fine.
+- **(ii)** This reporting is not a reaction to legal vocabulary. Agents state the fine correctly, and they keep reporting when the words are removed.
+- **(iii)** The legal vocabulary has a large effect on something else: whether colluding agents *state* their agreement explicitly.
 
-The third point matters for AI oversight. Any monitor that reads agent communication (an authority, a classifier, a human reviewer) sees less collusion precisely when agents have been told collusion is forbidden, while prices tell a different story.
+The third point matters for AI oversight. A monitor that reads agent communication (an authority, a classifier, a human reviewer) sees less explicit coordination once agents are told coordination is forbidden, while prices in two of three families stay where they were. This is related to the obfuscation that Baker et al. (2025) find when models are trained against a chain-of-thought monitor. Here, no training is involved: one sentence in the prompt is enough.
 
-**Definition.** We call a period collusive in *outcome* when the markup index exceeds the Bertrand–Nash level (Δ > 0), and *reportable* when the conversation contains an explicit or implicit agreement. This follows the distinction between direct, attempted and hidden collusion in Nakamura et al. (2026): our main result is a shift from "direct" collusion (talk plus high price) towards "hidden" collusion (high price, little explicit talk).
+**Definition.** We call a period collusive in *outcome* when the markup index exceeds the Bertrand–Nash level (Δ > 0), and *reportable* when the conversation contains an explicit or implicit agreement. In the terms of Nakamura et al. (2026), legal framing moves conversations from direct collusion (explicit talk plus high prices) towards high prices with little explicit talk. We do not claim the agents intend to hide (§5).
 
 ## 2. Related work
 
@@ -44,9 +44,9 @@ The third point matters for AI oversight. Any monitor that reads agent communica
 
 **Theory.** Leniency can backfire by lowering the expected penalty for collusion (Motta & Polo, 2003), and poorly designed leniency can make otherwise infeasible illegal deals possible (Buccirossi & Spagnolo, 2006). Rewarding the first reporter can reach the first-best (Spagnolo, 2004). Harrington (2018) argues that collusion by autonomous pricing agents is not unlawful under current US law, because no human agreement exists.
 
-**LLM and algorithmic collusion.** Reinforcement-learning pricing agents learn to collude (Calvano et al., 2020). LLM agents collude too, and "seemingly innocuous phrases" in their instructions change how much (Fish et al., 2024). Our framing result is a sharper version of that sensitivity: the wording changes the *visibility* of collusion more than its level.
+**LLM and algorithmic collusion.** Reinforcement-learning pricing agents learn to collude (Calvano et al., 2020). LLM agents collude too, and "seemingly innocuous phrases" in their instructions change how much (Fish et al., 2024). In two of our three families, the wording changes how *explicit* the collusion talk is more than its level.
 
-**Detection and whistleblowing.** Colosseum distinguishes direct, attempted and hidden collusion, and finds that neither conversations nor actions alone suffice to detect it (Nakamura et al., 2026). Whistleblowing by LLM agents differs substantially between model families (Agrawal et al., 2025b). Our cross-family reporting spread is consistent with that, now in an incentivised economic game.
+**Detection, obfuscation and whistleblowing.** Colosseum distinguishes direct, attempted and hidden collusion, and finds that neither conversations nor actions alone suffice to detect it (Nakamura et al., 2026). Baker et al. (2025) show that reasoning models trained against a chain-of-thought monitor learn to keep misbehaving while hiding their intent from it. Whistleblowing by LLM agents differs substantially between model families (Agrawal et al., 2025b), consistent with our cross-family reporting spread, now in an incentivised economic game.
 
 ## 3. Methods
 
@@ -78,14 +78,15 @@ Only the agents' prompts change. The authority and classifier prompts do not.
 
 **Measures and statistics.**
 - **Unit of analysis:** the supergame. Period-level rates are averaged within each supergame first.
-- **Matching:** conditions share seeds for audits and the first speaker, and legal/neutral comparisons use matched supergames.
+- **Matching:** conditions share seeds for audits and the first speaker. Legal/neutral comparisons use matched supergames 0–19 (excluding any lost in either arm), so their legal values can differ slightly from Table 1, which uses all 30 baseline supergames (e.g. Llama E1 reporting 0.175 matched vs 0.185 in Table 1).
 - **Tests:** Mann–Whitney U, a Kendall trend test for the regime ladder, and a permutation test for the framing × regime interaction. Holm correction is applied as preregistered.
 - **Exclusions:** supergames that aborted on repeated unparseable replies are excluded and counted (Haiku: 1 of 150 baseline supergames, 1 of 20 in E1-neutral, 4 of 20 in E3b-neutral).
 
 **Preregistration.**
 - **Freeze:** hypotheses H1–H4 were committed (git `b491bb6`, 2026-10-24 21:44 CEST) before any neutral-framing cell was run.
-- **Amendment:** after H1–H2 failed, an exploratory pattern led to Amendment 1 (H5c, committed `444b33a`, 22:42 CEST) *before* its confirmatory data were collected. The analysis script was committed with it and run once, unchanged.
-- **Disclosure:** the primary model was chosen after a baseline screen (§4.1). Everything observed before the freeze is listed in `PREREGISTRATION.md` §0.
+- **Amendment:** after H1–H2 failed, an exploratory pattern led to Amendment 1 (H5c, committed `444b33a`, 22:42 CEST). The analysis script was committed with it and run once, unchanged.
+- **What was new in the H5c test:** only the neutral arms were collected after the amendment (written 22:48 and 23:02). The legal arms are the existing E3b baseline cells, collected earlier (`results/sensitivity_h5c.md`, §4). Their combined explicit-plus-implicit agreement rate had been seen; their explicit-only share had not been computed.
+- **Other disclosures:** before choosing E3b as the test regime, we had seen gpt-4o-mini's E3b report and conviction rates under both framings, but not its explicit share. The primary model was chosen after a baseline screen (§4.1). Everything observed before the freeze is listed in `PREREGISTRATION.md` §0.
 
 ## 4. Results
 
@@ -118,7 +119,7 @@ Screened families have n = 10 in E0 and 20 in E1 (E3b: 20 for gpt-4o-mini, 10 fo
 ![Figure 3](figures/fig3.png)
 *Figure 3. Share of periods with a report by regime, three families with a full baseline, against Lee's published values. Bars: 95% CI over supergames.*
 
-Reporting under E1 is the clearest diagnostic. The reporter gains nothing: it triggers an investigation that otherwise happens with probability 0.10, and a guilty ruling fines both firms 200 regardless of who reported. Yet gpt-4o-mini reports in 94% of periods, Gemini in 89% and gpt-4.1-mini in 60%. For gpt-4.1-mini, E1 reporting *rises* over the supergame (0.46 in periods 1–5 to 0.70 in periods 16–20) even though every report it files is costly.
+Reporting under E1 is the clearest diagnostic. A report cannot lower the reporter's own fine: it triggers an investigation that otherwise happens with probability 0.10, and a guilty ruling fines both firms 200 regardless of who reported. Its expected cost depends on how likely the chat is to be convicted, and that cost is near zero for an innocent chat. Yet gpt-4o-mini reports in 94% of periods, Gemini in 89% and gpt-4.1-mini in 60%. For gpt-4.1-mini, E1 reporting *rises* over the supergame (0.46 in periods 1–5 to 0.70 in periods 16–20), even though no report can reduce its fine.
 
 ### 4.2 Do agents understand the cost? (H3, preregistered)
 
@@ -126,7 +127,7 @@ We gave each model the real system prompt and one multiple-choice question: "You
 - **E1:** all five families answered correctly (pay 200) in **20/20** samples in both framings.
 - **E3b:** every family also answered correctly (a sole reporter pays 0), with one exception. gpt-4o-mini under legal framing answered correctly in only 2/20 samples (0.10, 95% CI [0.03, 0.30]) but in 20/20 under neutral framing. This exception was not preregistered.
 
-**Conclusion:** reflexive reporting is not a misreading of the rules. Under the preregistered rule (accuracy ≥ 0.8), these agents report *despite understanding the cost*.
+**Conclusion:** reflexive reporting is not a misreading of the fine. Under the preregistered rule (accuracy ≥ 0.8), these agents report *while correctly stating what a conviction costs them*. Two caveats: answering a quiz correctly does not show that the knowledge is used in the decision, and the quiz does not measure what agents believe about whether their own chat would be convicted.
 
 **Stated reasons (H4, descriptive).** We coded the stated reasoning of each E1 legal-framing filing with fixed keyword lists. Legality and compliance language appears in **0.39** (gpt-4o-mini, 599 filings), **0.94** (gpt-4.1-mini, 369) and **0.59** (Gemini, 555) of filing decisions. Punishing the partner appears in 0.00, 0.29 and 0.03.
 
@@ -145,9 +146,9 @@ We gave each model the real system prompt and one multiple-choice question: "You
 
 Neutral-frame reasoning suggests why. Agents often describe filing the form as a *cooperation signal* ("filing R1 signals commitment to cooperation"). The behaviour survives a change of vocabulary, so it is not a vocabulary artifact. Whether it is a disposition to file or a misreading of what filing signals cannot be separated with these data.
 
-### 4.4 The legal frame makes collusion covert (H5c, preregistered confirmatory)
+### 4.4 Legal framing makes price agreements less explicit (H5c, preregistered)
 
-While analysing H1 we saw an unplanned pattern. In E1, under legal framing, far fewer chats contained an explicit agreement:
+While analysing H1 we saw an unplanned pattern. In E1, under legal framing, far fewer chats contained an explicit agreement in four of five families:
 
 | Family | Legal | Neutral |
 |---|---|---|
@@ -157,7 +158,7 @@ While analysing H1 we saw an unplanned pattern. In E1, under legal framing, far 
 | Haiku | 0.11 | 0.52 |
 | Gemini | 0.84 | 0.84 |
 
-(`results/exploratory_explicit.md`.) We preregistered this as H5c and tested it on new data in a different regime (E3b) for two families. The decision rule required both families to be significant after Holm correction.
+(`results/exploratory_explicit.md`.) We preregistered this as H5c and tested it in a different regime (E3b) for two families. The neutral arms were newly collected after registration; the legal arms are the existing baseline cells (§3). The decision rule required both families to be significant after Holm correction.
 
 **Table 2.** H5c, E3b legal vs neutral framing, matched supergames (`results/confirm_analysis.md`).
 
@@ -168,22 +169,32 @@ While analysing H1 we saw an unplanned pattern. In E1, under legal framing, far 
 
 **H5c is supported** (Figure 1A). Under legal framing, Haiku states an explicit agreement in 12% of periods instead of 67%, and Llama in 29% instead of 85%.
 
-**Markups are not lower under legal framing** (Figure 1B). Haiku's is slightly higher (0.968 vs 0.930), and Llama's slightly lower (0.776 vs 0.807). Legal framing does not make these markets more competitive. It makes their collusion less visible: random audits of Haiku's conversations convicted in 3 of 34 audited periods under legal framing versus 17 of 23 under neutral.
+**Markups did not fall under legal framing in these two families** (Figure 1B):
+- **Haiku:** 0.968 legal vs 0.930 neutral; difference (neutral − legal) −0.038, 95% bootstrap CI [−0.088, +0.013].
+- **Llama:** 0.776 vs 0.807; difference +0.031, CI [−0.025, +0.086].
 
-The pattern also appears in gpt-4o-mini's E3b data, which were collected before the amendment and are reported descriptively: explicit 0.275 vs 0.920. For that family, though, markups are *lower* under legal framing (0.634 vs 0.801). So the effect on talk is consistent across families, while the effect on prices varies in sign.
+Both intervals stay within about half a price unit. This is a descriptive bound, not a preregistered equivalence test. What did change is detection: random audits of Haiku's conversations convicted in 3 of 34 audited periods under legal framing versus 17 of 23 under neutral.
+
+**The price effect is not general.** gpt-4o-mini's E3b data (collected before the amendment, descriptive) show the same talk pattern (explicit 0.275 vs 0.920), but its markups are *lower* under legal framing (0.634 vs 0.801). Gemini shows no talk effect at all in E1 (0.84 vs 0.84). So the effect on talk appears in four of five families, and the effect on prices varies.
+
+**Robustness** (post hoc, requested in review; `results/sensitivity_h5c.md`):
+- **Classifier precision.** We rescaled each arm's explicit share by the classifier's measured precision. The hand-check found 0 missed explicit agreements, so we treat recall as complete.
+  - With the measured precision (5 of 12 overall; 2/6 legal, 3/6 neutral), the gap is 0.21–0.30 for Haiku and 0.23–0.33 for Llama.
+  - Under an adversarial assumption (perfect precision for legal chats, 1/3 for neutral), Haiku keeps a gap (0.12 vs 0.22), but Llama's disappears (0.29 vs 0.28).
+- **Attrition.** If Haiku's four lost neutral supergames counted as zero explicit agreements, the test still holds (neutral 0.538, one-sided p = 0.00039). All four failures were long public-report replies, not price negotiations.
 
 ![Figure 1](figures/fig1.png)
 *Figure 1. E3b (leniency + 2F reward). (A) Per-supergame share of periods whose chat the classifier labels an explicit price agreement. (B) Markup index Δ. Points: supergames; large dots: means with 95% CIs.*
 
-**What "covert" looks like.** Legal-framing chats keep proposing and matching a price while disclaiming coordination.
+**What less explicit talk looks like.** Legal-framing chats keep proposing and matching a price while disclaiming coordination.
 
 Example: Claude Haiku 5.5, E3b legal, supergame 5, period 12. One firm suggests "we continue there [at 9] rather than undercut each other". The other replies that it is "setting my price independently and won't be coordinating with you on it". Then "we're both independently holding 9 … I'm not going to be the one who undercuts it". Both firms priced at 9.
 
-The classifier labelled this chat *none*; our human rater labelled it *none* as well. That is the point: by the letter of the rubric there is no agreement, yet the outcome is the joint-profit maximum.
+The classifier labelled this chat *none*, and so did our human rater. By the letter of the rubric there is no agreement, yet both firms sit at the joint-profit maximum. Price 9 is also a focal point that needs no communication at all, and the wording is what a lawyer would advise a law-abiding oligopolist to say. The transcript alone cannot tell deliberate concealment from tacit or independent high pricing (§5).
 
-### 4.5 Validity: blinded human hand-check of the classifier
+### 4.5 Validity: label-blind human hand-check of the classifier
 
-One human rater (the author) labelled 32 conversations from the H5c cells, blind to the classifier's label, the family and the cell.
+One human rater (the author, who knew the hypothesis) labelled 32 conversations from the H5c cells without seeing the classifier's label or the family. The framing was visible from the wording ("Form R1", "reviewer"), so the check is label-blind, not fully blind.
 - **Sample:** stratified 8 per family × framing cell, and by classifier label.
 - **Pre-commitment:** the sampler and scoring script were committed before labelling (`bf6eda1`).
 
@@ -191,32 +202,44 @@ One human rater (the author) labelled 32 conversations from the H5c cells, blind
 - **Three-way labels: weak agreement.** Raw agreement 0.47, Cohen's κ = 0.20. The classifier's *implicit/none* distinction should not carry any claim.
 - **Explicit vs not explicit (the H5c metric): moderate agreement.** Agreement 0.78, κ = 0.47.
 - **Direction of the errors:** the classifier never missed an explicit agreement the human saw (0 of 20). It over-called "explicit" 7 times.
-- **The over-calling appears in both framings.** Of the classifier's explicit calls, the human confirmed 2 of 6 in legal chats and 3 of 6 in neutral chats.
+- **The over-calling appears in both framings.** Of the classifier's explicit calls, the human confirmed 2 of 6 in legal chats and 3 of 6 in neutral chats. All 7 false explicit calls were chats the human rated implicit (6) or none (1), so the errors sit at the explicit/implicit boundary.
 
-Over-calling inflates the *legal* explicit share at least as much as the neutral one. The bias therefore works against H5c, not for it. With only 6 items per framing this is a sensitivity check, not a correction.
+Six items per framing cannot establish a framing-specific bias in either direction. The precision scenarios in §4.4 bound its possible effect.
 
 ## 5. Discussion
 
 **Lee's result is model-dependent.** How often LLM firms report under a leniency program spans two orders of magnitude across families under identical rules. Reporting is also often insensitive to the incentive the program is built on. Conclusions about "LLM agents and leniency" from one model, including Lee's, do not transfer.
 
-**The reporting is not explained by misunderstanding or by vocabulary.** Agents know the cost (§4.2), and removing legal words keeps or increases reporting (§4.3). The preregistered nulls rule out the most obvious explanation we had. What remains is a learned disposition to file. It is plausibly connected to the family-level differences in whistleblowing seen elsewhere (Agrawal et al., 2025b), but we do not test that link.
+**The reporting is not explained by misreading the fine or by vocabulary.** Agents state the fine correctly (§4.2), and removing legal words keeps or increases reporting (§4.3). The preregistered nulls rule out the most obvious explanation we had. What remains looks like a disposition to file that differs by family. It is plausibly connected to the family-level differences in whistleblowing seen elsewhere (Agrawal et al., 2025b), but we do not test that link.
 
-**The confirmed result concerns oversight, not enforcement.** Telling agents that coordination is illegal did not consistently reduce markups. It reliably made the coordination less explicit, and it cut what a conversation-reading authority can detect. For anyone overseeing AI agents through what they say, this is the worrying direction. Monitors look most reassuring precisely when agents have been warned. It argues for pairing communication monitoring with outcome-based checks: prices, the say/do comparison.
+**Why does legal framing change the talk? Normative salience fits better than strategic concealment.** The neutral rules spell out that implicit signals also meet criterion Q, and the deduction is the same 200. If agents were minimising the expected cost of detection, they should be *more* guarded under neutral framing, where they know exactly what is penalised. Instead they talk openly there, and go quiet when the conduct is only labelled "illegal". The agents respond to the normative label, not to the incentive. The most plausible mechanism is trained avoidance of saying illegal-sounding things, not hiding from the authority.
+
+This reading also fits the reporting results: filing is dispositional and insensitive to incentives, and phrasing tracks the normative label. A second explanation cannot be excluded: neutral-frame agents often treat filing a form as a cooperation signal, and may read "Positive" as favourable. Telling deliberate concealment from verbal avoidance would need the agents' private reasoning, which we did not collect.
+
+**The oversight consequence holds under either mechanism.** Telling agents that coordination is illegal did not lower markups for Haiku or Llama. It made the coordination less explicit, and it cut what a conversation-reading authority detects. Baker et al. (2025) find a similar loss of monitorability when models are trained against a monitor. Here it follows from one sentence of framing, with no training. Communication monitoring should be paired with outcome-based checks, such as comparing what agents say with how they price.
 
 **Policy note.** Leniency for AI agents (Idowu et al., 2026), and reward schemes built on it, should not assume that agents respond to the reward. In our data, rewards above leniency changed nothing for Haiku, and reflexive families report regardless.
 
 ## 6. Limitations
 
-- **Classifier as instrument.** The H5c outcome is labelled by an LLM classifier with moderate validity on the explicit metric (κ = 0.47) and poor validity on the three-way scheme. The hand-check used one rater on 32 items.
-- **Framing confound.** The neutral rules spell out criterion Q ("explicit or implicit understanding about prices…"), while the legal rules say only "illegal price-fixing". The label "Positive" may also read as favourable. Either could contribute to the talk difference. A cleaner design would equalise the definitions.
+- **Classifier as instrument.** The H5c outcome is labelled by an LLM classifier with moderate validity on the explicit metric (κ = 0.47, precision about 5/12) and poor validity on the three-way scheme. Llama's effect does not survive the adversarial precision scenario.
+- **Hand-check.** One rater (the author, aware of the hypothesis) labelled 32 items and could see the framing. A stronger check would mask the framing vocabulary and use independent raters.
+- **Half-fresh confirmatory data.** Only the neutral arms of the H5c test were collected after registration.
+- **No no-chat control.** Price 9 is the joint-profit maximum and a focal point in the payoff table. Without a no-communication condition we cannot show that the talk carries the collusion at all, or distinguish less explicit collusion from tacit or independent high pricing.
+- **Framing confound.** The neutral rules spell out criterion Q ("explicit or implicit understanding about prices…"), while the legal rules say only "illegal price-fixing", and "Positive" may read as favourable. A 2×2 design (the "illegal" label × a detailed definition) would separate these.
 - **Our market-rules text.** Lee does not publish his. Differences from his results (e.g. less "excess collusion" at price 10 in most families) may partly come from our wording.
 - **Scale.** We used 20–30 supergames per cell, 20 periods, one seed for each family, and small or cheap models only. Some screened cells have n = 10.
 - **Exclusions.** Haiku lost 4 of 20 supergames in the confirmatory neutral cell to truncated replies. These were excluded under the preregistered rule, and the comparison used matched supergames.
 - **Original hypotheses.** The project began as a test of "bounty farming" (firms taking turns reporting each other to collect rewards). We did not test it: Haiku convicts in only 3% of E3b periods, too few to observe alternation. That arithmetic is theoretical motivation only.
+- **Future work.**
+  - A no-chat control.
+  - The 2×2 framing design above.
+  - A private scratchpad, to separate deliberate concealment from verbal avoidance.
+  - A market without an obvious focal price.
 
 ## 7. Conclusion
 
-Across six LLM families in a leniency experiment, reporting behaviour is family-specific, often indifferent to incentives, and not driven by legal vocabulary. The legal vocabulary instead changes what colluding agents say. When told that agreements are illegal, LLM cartels state them far less often while pricing about the same. This was preregistered and confirmed in two families. Oversight of AI agents through their communications should expect this.
+Across six LLM families in a leniency experiment, reporting behaviour is family-specific, often indifferent to incentives, and not driven by legal vocabulary. The legal vocabulary instead changes how colluding agents talk. Told that agreements are illegal, agents in four of five families state them far less often. In the two families we tested formally, they kept pricing about the same. The pattern points to normative salience rather than strategic concealment. Either way, oversight of AI agents through their communications should expect it.
 
 ## Code and data
 
@@ -232,6 +255,7 @@ Across six LLM families in a leniency experiment, reporting behaviour is family-
 - Agrawal, K., Xiao, F., Bergman, G., & Cooper Stickland, A. (2025b). Why do language model agents whistleblow? arXiv:2511.17085.
 - Andres, M., Bruttel, L., & Friedrichsen, J. (2021). The leniency rule revisited: Experiments on cartel formation with open communication. *International Journal of Industrial Organization*, 76, 102728. doi:10.1016/j.ijindorg.2021.102728
 - Apesteguia, J., Dufwenberg, M., & Selten, R. (2007). Blowing the whistle. *Economic Theory*, 31(1), 143–166. doi:10.1007/s00199-006-0092-8
+- Baker, B., Huizinga, J., Gao, L., Dou, Z., Guan, M. Y., Madry, A., Zaremba, W., Pachocki, J., & Farhi, D. (2025). Monitoring reasoning models for misbehavior and the risks of promoting obfuscation. arXiv:2503.11926.
 - Bigoni, M., Fridolfsson, S.-O., Le Coq, C., & Spagnolo, G. (2012). Fines, leniency, and rewards in antitrust. *RAND Journal of Economics*, 43(2), 368–390. doi:10.1111/j.1756-2171.2012.00170.x
 - Buccirossi, P., & Spagnolo, G. (2006). Leniency policies and illegal transactions. *Journal of Public Economics*, 90(6–7), 1281–1297. doi:10.1016/j.jpubeco.2005.09.008
 - Calvano, E., Calzolari, G., Denicolò, V., & Pastorello, S. (2020). Artificial intelligence, algorithmic pricing, and collusion. *American Economic Review*, 110(10), 3267–3297. doi:10.1257/aer.20190623
