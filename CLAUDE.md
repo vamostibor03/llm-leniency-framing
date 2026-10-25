@@ -1,27 +1,30 @@
-# CLAUDE.md: Bounty Farming (AI Collusion Research Sprint)
+# CLAUDE.md: LLM leniency study (AI Collusion Research Sprint)
 
-**Read `HACKATHON_PLAN.md` first.** It holds the full context, hypotheses, timeline, budget, reading list and Lee's target numbers.
+**Start with `README.md`** for the result and repo map. Then read `PREREGISTRATION.md`, which lists what was observed and when. `HACKATHON_PLAN.md` is the original plan (bounty farming); the project pivoted away from it, as recorded in the preregistration.
 
-## What this folder is
-- `leniency/`: the experiment harness, a Python package. It is a faithful re-implementation of Lee (SSRN 7426061) plus our extension flags. 36 tests pass with mock agents; **no real model runs have been made yet**.
-- `papers/`: Lee's paper (PDF), the direct precedent we build on and challenge.
-- `notes/`: a condensed literature review, sprint facts and the transcript of the Colosseum talk.
-- `paper/`: the draft paper (Markdown). It may arrive later from a parallel session.
+## Status (Oct 25, 2026)
+- **All experiments are done.** 16 runs, 754 supergames, six agent families; the inventory and cost are in `results/run_inventory.md`.
+- **Preregistered results:**
+  - H1 and H2 are not supported;
+  - H3: agents understand the cost of reporting;
+  - H5c (Amendment 1) is supported in both families.
+- **Hand-check done:** one human rater (`results/handcheck/`).
+- **Paper:** `paper/draft.md` (full) and `paper/apart_submission.md` (template version). All numbers trace to `results/`, and the citations were verified on Oct 25.
+- **Open items:**
+  - confirm Lee's SSRN number in a browser;
+  - make the repo public;
+  - paste into the Apart template and submit. Internal deadline: Sun Oct 25, 23:00 Vienna; official: Mon Oct 26, 12:59 Vienna.
 
 ## Hard rules
-- **Never fabricate results, numbers or references.** Doing so disqualifies the submission. Any number in the paper must come from `runs/*` analysis output. Any citation must be verified by opening its URL.
-- **Never commit API keys** (`OPENROUTER_API_KEY`, `LENIENCY_API_KEY`). Use environment variables only.
-- **Ask before spending more than about $10 in one command.** Re-estimate cost from `runs/<name>/usage.json` after the smoke test.
-- **Freeze the hypotheses** (`PREREGISTRATION.md`, committed with a timestamp) once the Lee baseline validates and *before* looking at the extension results.
-- Keep Lee's baseline prompts verbatim (a test enforces this). Extensions go behind config flags only.
-- Treat the supergame as the unit of analysis, never the period.
+- **Never fabricate results, numbers or references.** Every number in the paper must come from `results/` (generated from `leniency/runs/`). Every citation must be checked against its source.
+- **Never commit API keys.** `OPENROUTER_API_KEY` lives in `leniency/.env`, which is gitignored.
+- **Ask before spending.** Ask before spending more than about $10 in one command; the OpenRouter credit is nearly used up.
+- **Don't edit frozen material.** Never change `PREREGISTRATION.md` above its "Amendments" section, or a committed analysis script after its data exist. Changes go in a new dated amendment.
+- **Keep Lee's prompts verbatim.** A test enforces this, and extensions go behind config flags.
+- **The supergame is the unit of analysis,** never the period.
+- **Don't publish third-party material.** `notes/colosseum_talk_transcript.txt` is kept locally and gitignored.
 
-## Immediate next steps
-1. `cd leniency && python3 -m venv .venv && source .venv/bin/activate && pip install -e . && pip install matplotlib pytest modal && python -m pytest -q`
-2. Smoke test: `python -m leniency run configs/smoke.yaml --out runs/smoke_gpt41mini` (needs `OPENROUTER_API_KEY`; about $0.25). Read 5–10 transcripts in `runs/smoke_gpt41mini/periods.jsonl`.
-3. In parallel, start the Modal deploy (`deploy/modal_vllm.py`; untested, so fix it if needed).
-4. Run the Lee baseline, then compare with Lee's Table 4 (plan §6). The positive control requires the E0 markup to be above 0.8 and the reporting ladder to appear.
-5. Freeze the hypotheses, then run the extensions, then `analyze` and `figures`.
-
-## Deadline
-Internal deadline: **Sun Oct 25, 23:00 Vienna**. Official deadline: Mon Oct 26, 12:59 Vienna (Sun 23:59 AoE).
+## Environment
+- **Python:** 3.12 venv at `leniency/.venv` (the system Python is 3.9, which is too old).
+- **Running:** load the key with `set -a; . leniency/.env; set +a` before `python -m leniency run ...`.
+- **Git:** remote is `origin` = github.com/vamostibor03/llm-leniency-framing, branch `main`.

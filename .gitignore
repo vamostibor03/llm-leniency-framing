@@ -9,3 +9,6 @@ __pycache__/
 papers/
 # run caches are large; commit analysis outputs selectively
 leniency/runs/
+
+# third-party talk transcript: kept locally, not published
+notes/colosseum_talk_transcript.txt
