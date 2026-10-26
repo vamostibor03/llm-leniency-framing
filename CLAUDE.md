@@ -11,7 +11,6 @@
 - **Hand-check done:** one human rater (`results/handcheck/`).
 - **Paper:** `paper/draft.md` (full) and `paper/apart_submission.md` (template version). All numbers trace to `results/`, and the citations were verified on Oct 25.
 - **Open items:**
-  - confirm Lee's SSRN number in a browser;
   - paste into the Apart template and submit. Internal deadline: Sun Oct 25, 23:00 Vienna; official: Mon Oct 26, 12:59 Vienna.
 
 ## Hard rules

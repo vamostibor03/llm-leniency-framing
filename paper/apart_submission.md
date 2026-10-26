@@ -216,7 +216,7 @@ Across six LLM families, reporting under leniency is family-specific, often indi
 - Harrington, J. E. (2018). Developing competition law for collusion by autonomous artificial agents. Journal of Competition Law & Economics, 14(3), 331–363. doi:10.1093/joclec/nhy016
 - Hinloopen, J., & Soetevent, A. R. (2008). Laboratory evidence on the effectiveness of corporate leniency programs. RAND Journal of Economics, 39(2), 607–616. doi:10.1111/j.0741-6261.2008.00030.x
 - Idowu, J., Almasoud, A., & Alfahid, A. (2026). Mapping human anti-collusion mechanisms to multi-agent AI systems. arXiv:2601.00360.
-- Lee, J. Y. (2026). LLM leniency and reward experiment. Working paper, Pusan National University. SSRN 7426061. [CONFIRM THE SSRN NUMBER IN A BROWSER, THEN DELETE THIS NOTE]
+- Lee, J. Y. (2026). LLM leniency and reward experiment. Working paper, Pusan National University. SSRN 7426061. https://ssrn.com/abstract=7426061
 - Motta, M., & Polo, M. (2003). Leniency programs and cartel prosecution. International Journal of Industrial Organization, 21(3), 347–379. doi:10.1016/S0167-7187(02)00057-7
 - Nakamura, M., Kumar, A., Das, S., Abdelnabi, S., Mahmud, S., Fioretto, F., Zilberstein, S., & Bagdasarian, E. (2026). Colosseum: Auditing collusion in cooperative multi-agent systems. arXiv:2602.15198.
 - Spagnolo, G. (2004). Divide et impera: Optimal leniency programmes. CEPR Discussion Paper 4840.

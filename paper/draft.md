@@ -3,7 +3,7 @@
 **Tibor Vámos**
 AI Collusion Research Sprint (Apart Research × Poseidon Research), October 2026. Tracks 1 and 3.
 
-> DRAFT, 2026-10-25. Every number comes from `results/` (generated from `leniency/runs/`). Citations verified 2026-10-25 (arXiv/RePEc/CMA pages opened; journal metadata checked against Crossref). Lee (2026)'s SSRN number could not be confirmed automatically (see References).
+> DRAFT, 2026-10-25. Every number comes from `results/` (generated from `leniency/runs/`). Citations verified 2026-10-25 (arXiv/RePEc/CMA pages opened; journal metadata checked against Crossref).
 
 ---
 
@@ -264,7 +264,7 @@ Across six LLM families in a leniency experiment, reporting behaviour is family-
 - Harrington, J. E. (2018). Developing competition law for collusion by autonomous artificial agents. *Journal of Competition Law & Economics*, 14(3), 331–363. doi:10.1093/joclec/nhy016
 - Hinloopen, J., & Soetevent, A. R. (2008). Laboratory evidence on the effectiveness of corporate leniency programs. *RAND Journal of Economics*, 39(2), 607–616. doi:10.1111/j.0741-6261.2008.00030.x
 - Idowu, J., Almasoud, A., & Alfahid, A. (2026). Mapping human anti-collusion mechanisms to multi-agent AI systems. arXiv:2601.00360.
-- Lee, J. Y. (2026). LLM leniency and reward experiment. Working paper, Pusan National University. SSRN 7426061. *[TODO before submission: open https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7426061 in a browser and confirm the number; SSRN blocked automated access. Title, author and affiliation confirmed from the PDF.]*
+- Lee, J. Y. (2026). LLM leniency and reward experiment. Working paper, Pusan National University. SSRN 7426061. https://ssrn.com/abstract=7426061
 - Motta, M., & Polo, M. (2003). Leniency programs and cartel prosecution. *International Journal of Industrial Organization*, 21(3), 347–379. doi:10.1016/S0167-7187(02)00057-7
 - Nakamura, M., Kumar, A., Das, S., Abdelnabi, S., Mahmud, S., Fioretto, F., Zilberstein, S., & Bagdasarian, E. (2026). Colosseum: Auditing collusion in cooperative multi-agent systems. arXiv:2602.15198.
 - Spagnolo, G. (2004). Divide et impera: Optimal leniency programmes. CEPR Discussion Paper 4840.
