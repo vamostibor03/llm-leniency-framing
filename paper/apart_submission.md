@@ -47,6 +47,8 @@ We set out to ask whether that result is a property of the agents or of the mech
 
 **Algorithmic and LLM collusion.** Reinforcement-learning pricing agents learn to collude (Calvano et al., 2020). Collusion by autonomous agents may escape current law because there is no human agreement (Harrington, 2018). For LLM agents, "seemingly innocuous phrases" in the instructions change collusion levels (Fish et al., 2024). In two of our three families, wording changes how *explicit* the collusion talk is more than its level.
 
+**Concurrent work.** At the same sprint, Mündelein (2026) replays the Bigoni et al. (2012) game with four LLMs, including Claude Haiku 5.5. Fines, leniency and rewards removed explicit cartels, but three of the four models kept prices well above the Nash level with almost no explicit coordination. This closely parallels our finding about talk.
+
 **Detection, obfuscation and whistleblowing.** Colosseum distinguishes direct, attempted and hidden collusion, and finds that neither conversations nor actions alone suffice to detect it (Nakamura et al., 2026). Models trained against a chain-of-thought monitor learn to hide their intent from it while still misbehaving (Baker et al., 2025). LLM whistleblowing differs substantially across model families (Agrawal et al., 2025b), consistent with our cross-family reporting spread.
 
 # 3. METHODS
@@ -183,6 +185,8 @@ One rater (the author, aware of the hypothesis) labelled 32 chats from the H5c c
 
 **Normative salience fits better than strategic concealment.** The neutral rules state that implicit signals are penalised, at the same 200 deduction. An agent minimising expected detection cost should be *more* guarded there. Instead, neutral agents talk openly, and legal-framing agents go quiet. They respond to the label, not the incentive, which suggests trained avoidance of illegal-sounding statements rather than hiding. An alternative remains: neutral agents may read filing and "Positive" as cooperative. Private reasoning traces would separate the two.
 
+**Concurrent evidence and a discrepancy.** Mündelein (2026) independently finds explicit cartels disappearing under enforcement while prices stay supracompetitive in most models. One result differs: in their implementation, Claude Haiku 5.5's prices fall to near-competitive levels under leniency and rewards, whereas ours stay near the joint-profit maximum (Δ ≈ 0.98). Implementation details such as the market-rules wording may explain this, which again shows how sensitive these results are to the wording of the rules.
+
 **The oversight consequence holds either way.** For Haiku and Llama, legal framing left markups unchanged but made coordination less explicit and harder for a conversation-reading authority to detect. Baker et al. (2025) find a similar loss of monitorability after training against a monitor; here one prompt sentence suffices. Communication monitoring should be paired with outcome-based checks. Leniency for AI agents (Idowu et al., 2026) should not assume that agents respond to rewards: for Haiku, rewards added nothing beyond leniency.
 
 **Limitations.**
@@ -218,6 +222,7 @@ Across six LLM families, reporting under leniency is family-specific, often indi
 - Idowu, J., Almasoud, A., & Alfahid, A. (2026). Mapping human anti-collusion mechanisms to multi-agent AI systems. arXiv:2601.00360.
 - Lee, J. Y. (2026). LLM leniency and reward experiment. Working paper, Pusan National University. SSRN 7426061. https://ssrn.com/abstract=7426061
 - Motta, M., & Polo, M. (2003). Leniency programs and cartel prosecution. International Journal of Industrial Organization, 21(3), 347–379. doi:10.1016/S0167-7187(02)00057-7
+- Mündelein, J. (2026). Same game, different players: A human-calibrated testbed for cartel enforcement on LLM pricing agents (CartelBench). AI Collusion Research Sprint submission. https://github.com/julianmundelein-beep/2026-ai-collusion-sprint
 - Nakamura, M., Kumar, A., Das, S., Abdelnabi, S., Mahmud, S., Fioretto, F., Zilberstein, S., & Bagdasarian, E. (2026). Colosseum: Auditing collusion in cooperative multi-agent systems. arXiv:2602.15198.
 - Spagnolo, G. (2004). Divide et impera: Optimal leniency programmes. CEPR Discussion Paper 4840.
 
