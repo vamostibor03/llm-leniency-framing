@@ -245,7 +245,7 @@ Across six LLM families in a leniency experiment, reporting behaviour is family-
 
 - **Harness:** the `leniency` Python package, written during the sprint (Oct 23–24, 2026). It reimplements Lee (2026); prompts are cited to Lee.
 - **Contents:** configs for every run, analysis scripts (`leniency/scripts/`), the preregistration with its git history, all analysis outputs and the hand-check data (`results/`).
-- **Repository:** [public URL to be added]. Raw run caches are not committed because of their size.
+- **Repository:** https://github.com/vamostibor03/llm-leniency-framing. Raw run caches are not committed because of their size.
 
 ## References
 

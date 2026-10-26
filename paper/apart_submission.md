@@ -198,7 +198,7 @@ Across six LLM families, reporting under leniency is family-specific, often indi
 
 # CODE AND DATA
 
-- **Code and data:** https://github.com/vamostibor03/llm-leniency-framing [make public before submitting].
+- **Code and data:** https://github.com/vamostibor03/llm-leniency-framing.
 - **Contents:** the experiment harness (written during the sprint, Oct 23–24, 2026, reimplementing Lee's protocol, with prompts credited to Lee), all run configs, the preregistration with its git history, analysis scripts, all analysis outputs and the hand-check data. Raw response caches are omitted because of their size.
 
 # REFERENCES
